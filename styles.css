@@ -37,15 +37,16 @@ body {
     height:250px;
     background-color:rgba(0, 0, 0, 0.589);
     border-radius: 5px;
-    box-shadow: 3px 3px 3px  rgba(255, 255, 255, 0.548);
+    box-shadow: 3px 3px 3px  rgba(75, 74, 74, 0.548);
     transition: 0.4s;
      
 }
 .card:hover {
-    box-shadow: 6px 6px 6px  rgba(255, 255, 255, 0.548);
+    box-shadow: 6px 6px 6px  rgba(75, 74, 74, 0.548);
 }
 
 .cards {
+    background-color: rgb(32, 31, 31);
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
     display: grid;

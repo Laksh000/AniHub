@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.top {
+    background-color: rgb(32, 31, 31);
+    padding: 5px 5px;
+    height: 60px;
+}
+.top h2 {
+    font-family: monospace;
+    color: gainsboro;
+    width: 65px;
+    height: 30px;
+    margin: 0;
+}
+.top a {
+    text-decoration: none;
+    font-family:cursive;
+    font-size: small;
+    color: gainsboro;
+    float: right;
+    background-color: black;
+    padding: 4px 4px;
+    height: 25px;
+    margin-right: 40px;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+}
+.card {
+    width: 300px;
+    height:250px;
+    background-color:rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px  rgba(255, 255, 255, 0.548);
+    transition: 0.4s;
+     
+}
+.card:hover {
+    box-shadow: 6px 6px 6px  rgba(255, 255, 255, 0.548);
+}
+
+.cards {
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    display: grid;
+    margin: 20px 30px;
+    padding-left: 38px;
+    border-radius: 5px;
+}
+.card a {
+    text-decoration: none;
+    font-family:cursive;
+    font-size: small;
+    color: gainsboro;
+}
+.card h3 {
+    margin-left: 5px;
+}
+.inf table,th,td  {
+    color: azure;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: cursive;
+}
+.inf th,td {
+    padding: 10px;
+    text-align: left;
+}
+.inf table {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.inf caption {
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+.inf p {
+    color: azure;
+    font-family: cursive;
+}
+.inf {
+    display: none;
+    background-color: rgb(32, 31, 31);
+}
+.inf:target{
+    display:block !important;
+}
+.login {
+    background-color: rgb(31, 30, 30);
+    width: 350px;
+    height: 200px;
+    color: azure;
+    margin: auto;
+    margin-top: 16%;
+}
+input[type=text],input[type=email],input[type=password] {
+    width: 80%;
+    padding: 12px 16px;
+    margin: 8px 33px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgb(92, 91, 91);
+    border: none;
+    outline: none;
+    font-family: cursive;
+    color: azure;
+    opacity: 1.5;
+}
+label b{
+    margin-left: 33px;
+    font-family: cursive;
+}
+#r {
+    margin-left: 40%;
+    background-color: black;
+    width: 22%;
+    height: 15%;
+    color: azure;
+    font-family: cursive;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.Register {
+    background-color: rgb(31, 30, 30);
+    width: 350px;
+    height: 400px;
+    color: azure;
+    margin: auto;
+    margin-top: 10%;
+}
+button {
+    margin-left: 20%;
+    background-color: black;
+    width: 22%;
+    height: 15%;
+    color: azure;
+    font-family: cursive;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.Message h3 {
+    color: gainsboro;
+    font-family: cursive;
+    margin: 400px;
+}
